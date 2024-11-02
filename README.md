@@ -16,6 +16,27 @@ This is a full-stack food delivery application built with the MERN (MongoDB, Exp
 - Responsive Design: Optimized for both desktop and mobile platforms
 - Persistent User Sessions: User tokens stored in localStorage for session management.
 ## 📂 Project Structure
+    ```bash
+    Tomato-Food-Delivery-App/
+    ├── backend/
+    │   ├── config/
+    │   │   └── db.js              # MongoDB connection setup
+    │   ├── controllers/           # Controller logic for routes
+    │   ├── middleware/
+    │   │   └── auth.js            # JWT-based authentication middleware
+    │   ├── models/                # Mongoose schemas for database
+    │   ├── routes/                # Express routes for APIs
+    │   ├── uploads/               # Image storage for food items
+    │   └── server.js              # Entry point of backend server
+    │
+    └── frontend/
+    ├── src/
+    │   ├── assets/            # Icons, images, and static assets
+    │   ├── components/        # Reusable components (Header, Footer, etc.)
+    │   ├── context/           # React context for global state
+    │   ├── pages/             # Pages (Home, Cart, Orders, etc.)
+    │   ├── App.js             # Main application component
+    │   └── index.js           # Entry point of frontend
 
 ## Built With
 - Frontend: React.js, Axios, CSS, React Router DOM, React Context API
