@@ -95,7 +95,8 @@ This is a full-stack food delivery application built with the MERN (MongoDB, Exp
 - JWT Authentication: Tokens are generated during login and verified for each request to protected routes.
 - Authorization: Admin routes are protected, ensuring only authorized users can perform specific actions.
 ## Screenshots
-![image](https://github.com/kumarchy/FullStack-Attendance-System/blob/c9b36b92cf646ad52528e429b1d194074581dd94/Screenshot%202024-10-12%20005711.png)
+![image](https://github.com/kumarchy/Food-Delivery-App/blob/main/Screenshot%202024-11-02%20214051.png)
+
 ## Contributing
 - Fork the project.
 - Create your feature branch (git checkout -b feature/AmazingFeature).
