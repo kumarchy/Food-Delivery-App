@@ -96,7 +96,7 @@ This is a full-stack food delivery application built with the MERN (MongoDB, Exp
 - Authorization: Admin routes are protected, ensuring only authorized users can perform specific actions.
 ## Screenshots
 ![image](https://github.com/kumarchy/Food-Delivery-App/blob/main/Screenshot%202024-11-02%20214051.png)
-
+![image](https://github.com/kumarchy/Food-Delivery-App/blob/main/Screenshot%202024-11-02%20214807.png)
 ## Contributing
 - Fork the project.
 - Create your feature branch (git checkout -b feature/AmazingFeature).
