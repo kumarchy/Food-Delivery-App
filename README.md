@@ -104,7 +104,7 @@ Check out the live version of the app here:
 ![image](https://github.com/kumarchy/Food-Delivery-App/blob/main/Screenshot%202024-11-02%20214807.png)
 ![image](https://github.com/kumarchy/Food-Delivery-App/blob/main/Screenshot%20From%202025-03-29%2023-44-16.png?raw=true
 )
-![image](https://github.com/kumarchy/Food-Delivery-App/blob/main/Screenshot%20From%202025-03-29%2023-44-16.png?raw=true
+![image](https://github.com/kumarchy/Food-Delivery-App/blob/main/Screenshot%20From%202025-03-29%2023-43-54.png?raw=true
 )
 ## Contributing
 - Fork the project.
