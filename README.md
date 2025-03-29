@@ -1,5 +1,10 @@
 # Food Delivery App
 This is a full-stack food delivery application built with the MERN (MongoDB, Express.js, React, Node.js) stack. This app allows users to browse a variety of dishes, add items to their cart, place orders, and manage their profiles. For admins, there are features to manage food items, handle orders, and monitor inventory. This README provides an overview of the application, its features, installation steps, and usage instructions.
+
+## Live Demo
+Check out the live version of the app here:  
+🔗 [Food Delivery App - Live](https://fooddelivery-app-frontend-psry.onrender.com/) 
+
 ## Features
 ### User Features
 - Explore Menu: Browse a rich variety of dishes by category.
