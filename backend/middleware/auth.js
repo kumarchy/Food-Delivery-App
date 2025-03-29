@@ -1,21 +1,34 @@
 import jwt from "jsonwebtoken";
+import dotenv from "dotenv";
 
-const authMiddleWare=async(req,resp,next)=>{
-  const {token}=req.headers;
-  if(!token){
-    return resp.json({success:false,message:'Not Authorized Login Again'});
-  }
-  try{
-    const token_decode=jwt.verify(token,process.env.JWT_SECRET);
-    req.body.userId= token_decode.id;
+// Load environment variables
+dotenv.config();
+
+const authMiddleWare = async (req, res, next) => {
+  try {
+    // Check for token in Authorization header (Bearer token)
+    const authHeader = req.headers.authorization;
+    if (!authHeader || !authHeader.startsWith('Bearer ')) {
+      return res.status(401).json({ 
+        success: false,
+        message: 'No token provided or invalid format' 
+      });
+    }
+
+    const token = authHeader.split(' ')[1];
+    const token_decode = jwt.verify(token, process.env.JWT_SECRET);
+    
+    // Attach user ID to request object
+    req.userId = token_decode.id;
     next();
-  }catch(error){
-    console.log(error);
-    resp.json({success:false,message:"Error"});
+    
+  } catch (error) {
+    console.error('Authentication Error:', error);
+    return res.status(401).json({ 
+      success: false,
+      message: error.message || 'Invalid or expired token' 
+    });
   }
-}
+};
 
 export default authMiddleWare;
-
-
-
